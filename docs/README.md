@@ -6,7 +6,7 @@ This is my solution to the « [Alpaca image generator website](https://www.codem
 
 I used Svelte to do the front-end, and no back-end was required.
 
-You can see a live example on [alpaca.drawbu.dev](https://alapaca.drawbu.dev).
+You can see a live example on [alpaca.drawbu.dev](https://alpaca.drawbu.dev).
 
 ```bash
 npm install
