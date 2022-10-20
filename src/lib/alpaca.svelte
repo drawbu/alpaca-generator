@@ -148,14 +148,13 @@
     width: 400px;
     height: 400px;
     position: relative;
-    border-radius: 32px;
-    border: 10px solid transparent;
+    border-radius: 20px;
 
     &:hover {
-      border-color: #ffffff;
+      box-shadow: 0 0 0 10px #ffffff;
 
       @media (prefers-color-scheme: light) {
-        border-color: #213547;
+        box-shadow: 0 0 0 10px #213547;
       }
     }
 
