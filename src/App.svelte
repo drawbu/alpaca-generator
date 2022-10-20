@@ -60,7 +60,7 @@
     <button on:click={randomize_alpaca}>Random! 🎲</button>
   </div>
   <div class="buttons">
-    <div class="select-element">
+    <div class="style-classes-buttons">
       <h2>Customize your Alpaca! ✨</h2>
       <div>
         {#each Object.keys(styles) as element}
@@ -72,7 +72,7 @@
         {/each}
       </div>
     </div>
-    <div class="style">
+    <div class="style-buttons">
       {#if selected_style != ''}
         <h2>Style</h2>
         <div>
@@ -144,17 +144,11 @@
     }
 
     .buttons {
-      display: flex;
-      flex-direction: column;
-      margin-top: 32px;
-      gap: 32px;
-
-      .style,
-      .select-element {
+      div {
         width: 400px;
 
         h2 {
-          margin-top: 8px;
+          margin-top: 40px;
           margin-bottom: 8px;
           text-transform: uppercase;
           font-size: larger;
